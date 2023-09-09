@@ -1,2 +1,10 @@
 New file for ex69
+<<<<<<< HEAD
 Helloooo
+=======
+
+
+Correction from Alexcoratt
+
+Wassuuup from Equnox
+>>>>>>> 3c85b43929347a9353bef5bc0428394f8bbb4933
