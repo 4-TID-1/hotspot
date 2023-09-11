@@ -1,4 +1,4 @@
-# HOTSPOT team
+# HOTSPOT Crew
 
 ## Members
 - Ilya Koltsov
