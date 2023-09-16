@@ -1,0 +1,126 @@
+\doxysection{person Class Reference}
+\hypertarget{classperson}{}\label{classperson}\index{person@{person}}
+
+
+Класс поисания персоны  
+
+
+
+
+{\ttfamily \#include $<$person.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classperson_ac8851f8c7ff0e99377cf479a07333e7a}{person}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classperson_a09c513061fc8c977d6970488123fe294}{person}} (char \texorpdfstring{$\ast$}{*}fio, int age, char \texorpdfstring{$\ast$}{*}addr)
+\begin{DoxyCompactList}\small\item\em Конструктор с заполнением полей класса \end{DoxyCompactList}\item 
+\Hypertarget{classperson_a156f89d776d9c311d23e41dbf8dd88c4}\label{classperson_a156f89d776d9c311d23e41dbf8dd88c4} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}person} ()
+\begin{DoxyCompactList}\small\item\em Деструктор освобождает ресурсы \end{DoxyCompactList}\item 
+char \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classperson_ab84afa63fda340cd735d18e32a208b5c}{get\+Full\+Info}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает полную информацию о персоне \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classperson_ada2d6e2c9d615b9448244d0e744b5a7c}{change\+Addr}} (char \texorpdfstring{$\ast$}{*}new\+Addr)
+\begin{DoxyCompactList}\small\item\em Изменяет адрес персоны \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classperson_a09fe56d616955de5a3e6a7402db7f27a}\label{classperson_a09fe56d616955de5a3e6a7402db7f27a} 
+char \texorpdfstring{$\ast$}{*} {\bfseries \+\_\+fio}
+\begin{DoxyCompactList}\small\item\em ФИО персоны \end{DoxyCompactList}\item 
+\Hypertarget{classperson_a7bc1052502043bb8b8a80a3fdb3ed0f3}\label{classperson_a7bc1052502043bb8b8a80a3fdb3ed0f3} 
+int {\bfseries \+\_\+age}
+\begin{DoxyCompactList}\small\item\em возраст \end{DoxyCompactList}\item 
+\Hypertarget{classperson_af2a542b2133de5efdce87d1d94822f5a}\label{classperson_af2a542b2133de5efdce87d1d94822f5a} 
+char \texorpdfstring{$\ast$}{*} {\bfseries \+\_\+addr}
+\begin{DoxyCompactList}\small\item\em адрес в произвольном формате \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс поисания персоны 
+
+\begin{DoxyVerb}\file person.h
+\brief Заголовочный файл класса person
+\copyright USER
+\author Koltsov
+\date 09-16-2021
+\version 1.9
+\end{DoxyVerb}
+ \begin{DoxyParagraph}{Использует классы\+:}
+\doxylink{classperson}{person} 
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Содержит класс}
+\doxylink{classperson}{person} Содержит данные персоны и методы для работы с ними 
+\end{DoxyParagraph}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classperson_ac8851f8c7ff0e99377cf479a07333e7a}\label{classperson_ac8851f8c7ff0e99377cf479a07333e7a} 
+\index{person@{person}!person@{person}}
+\index{person@{person}!person@{person}}
+\doxysubsubsection{\texorpdfstring{person()}{person()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily person\+::person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Конструктор по умолчанию 
+
+Создает персону и инициализирует ее поля \Hypertarget{classperson_a09c513061fc8c977d6970488123fe294}\label{classperson_a09c513061fc8c977d6970488123fe294} 
+\index{person@{person}!person@{person}}
+\index{person@{person}!person@{person}}
+\doxysubsubsection{\texorpdfstring{person()}{person()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily person\+::person (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{fio,  }\item[{int}]{age,  }\item[{char \texorpdfstring{$\ast$}{*}}]{addr }\end{DoxyParamCaption})}
+
+
+
+Конструктор с заполнением полей класса 
+
+Создает персону и инициализирует ее поля 
+\begin{DoxyParams}{Parameters}
+{\em fio} & ФИО создаваемой персоны \\
+\hline
+{\em age} & возраст создаваемой персоны \\
+\hline
+{\em addr} & адрес создаваемой персоны \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classperson_ada2d6e2c9d615b9448244d0e744b5a7c}\label{classperson_ada2d6e2c9d615b9448244d0e744b5a7c} 
+\index{person@{person}!changeAddr@{changeAddr}}
+\index{changeAddr@{changeAddr}!person@{person}}
+\doxysubsubsection{\texorpdfstring{changeAddr()}{changeAddr()}}
+{\footnotesize\ttfamily bool person\+::change\+Addr (\begin{DoxyParamCaption}\item[{char \texorpdfstring{$\ast$}{*}}]{new\+Addr }\end{DoxyParamCaption})}
+
+
+
+Изменяет адрес персоны 
+
+Перед изменением проверяет формат строки с адресом (код, город, улица, дом) 
+\begin{DoxyParams}{Parameters}
+{\em new\+Addr} & новый адрес персоны \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+успешность выполнения действия 
+\end{DoxyReturn}
+\Hypertarget{classperson_ab84afa63fda340cd735d18e32a208b5c}\label{classperson_ab84afa63fda340cd735d18e32a208b5c} 
+\index{person@{person}!getFullInfo@{getFullInfo}}
+\index{getFullInfo@{getFullInfo}!person@{person}}
+\doxysubsubsection{\texorpdfstring{getFullInfo()}{getFullInfo()}}
+{\footnotesize\ttfamily char \texorpdfstring{$\ast$}{*} person\+::get\+Full\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает полную информацию о персоне 
+
+Если сведений нет, то возвращает сообщение об ошибке \begin{DoxyReturn}{Returns}
+строку и данными о персоне в формате (ФИО, возраст, адрес) 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+person.\+h\end{DoxyCompactItemize}
