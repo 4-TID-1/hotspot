@@ -4,4 +4,12 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(Hotspot)
 
-add_executable(main src/main.cpp)
+file(GLOB SOURCE_FILES "src/*/sources/*.cpp")
+
+add_executable(main src/main.cpp ${SOURCE_FILES})
+
+target_include_directories(
+    main
+
+    PUBLIC src/classes/headers
+)
